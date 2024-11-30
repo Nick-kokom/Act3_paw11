@@ -1,0 +1,24 @@
+{
+  "name": "act3_ite18-3d",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod",
+    "login": "vercel login",
+    "logout": "vercel logout"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "lil-gui": "^0.20.0",
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  }
+}
